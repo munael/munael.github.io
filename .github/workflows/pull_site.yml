@@ -30,4 +30,4 @@ jobs:
       uses: actions/checkout@master
       with:
         repository: munael/munael.github.io--source
-        token: ${{ secrets.my_source_pat }}
+        token: ${{ secrets.ACT_PULL_RENDERED_PAT }}
