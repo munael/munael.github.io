@@ -1,6 +1,6 @@
 # This is a basic workflow that is manually triggered
 
-name: Manual workflow
+name: Pull rendered static site
 
 # Controls when the action will run. Workflow runs when manually triggered using the UI
 # or API.
@@ -30,4 +30,12 @@ jobs:
       uses: actions/checkout@master
       with:
         repository: munael/munael.github.io--source
-        token: ${{ secrets.ACT_PULL_RENDERED_PAT }}
+        ref: gh-pages
+        ssh-key: ${{ secrets.ACT_PULL_RENDERED_PAT }}
+        path: 'public'
+  
+    - name: Deploy
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        deploy_key: ${{ secrets.ACT_DEPLOY_KEY }}
+        publish_dir: ./public
