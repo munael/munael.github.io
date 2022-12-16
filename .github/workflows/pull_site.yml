@@ -39,3 +39,4 @@ jobs:
       with:
         deploy_key: ${{ secrets.ACT_DEPLOY_KEY }}
         publish_dir: ./public
+        force_orphan: true
