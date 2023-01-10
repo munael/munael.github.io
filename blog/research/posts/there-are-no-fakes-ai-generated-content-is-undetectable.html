@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<?xml version="1.0" encoding="utf-8"?>
+<!doctype html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="What makes data &quot;real&quot;? AI-generated content may not be discernable a priori, but only within a syntactic and epistemologic context.">
+    <title>M. N. ElNokrashy - There Are No Fakes: AI-Generated Content Is Undetectable</title>
+        <meta property="og:type" content="website">
+        <meta property="og:url" content="https://munael.github.io/blog/research/posts/there-are-no-fakes-ai-generated-content-is-undetectable.html">
+        <meta property="og:title" content="M. N. ElNokrashy - There Are No Fakes: AI-Generated Content Is Undetectable">
+        <meta property="og:description" content="What makes data &quot;real&quot;? AI-generated content may not be discernable a priori, but only within a syntactic and epistemologic context.">
+        <meta name="twitter:site" content="@__munael">
+        <meta name="twitter:creator" content="@__munael">
+            
+            <meta name="twitter:card" content="summary">
+            <meta name="twitter:image" content="/foo/bar.png">
+            <meta property="og:image" content="/foo/bar.png">
+    
+    
+    
+    
+    
+    
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.2/dist/katex.min.css" integrity="sha384-bYdxxUwYipFNohQlHt0bjN/LCpueqWz13HufFEV1SUatKs1cm4L6fFgCi1jT643X" crossorigin="anonymous">
+
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.2/dist/katex.min.js" integrity="sha384-Qsn9KnoKISj6dI8g7p1HBlNpVx0I8p1SvlwOldgi3IorMle61nQy4zEahWYtljaz" crossorigin="anonymous"></script>
+
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.2/dist/contrib/auto-render.min.js" integrity="sha384-+VBxd3r6XgURycqtZ117nYw44OOcIax56Z4dCRWbxyPt0Koah1uHoK0o4+/RRE05" crossorigin="anonymous"
+    
+></script>
+<script>
+    // https://katex.org/docs/autorender.html
+    document.addEventListener("DOMContentLoaded", function() {
+        renderMathInElement(document.body, {
+            // customised options
+            // • auto-render specific keys, e.g.:
+            delimiters: [
+                {left: '$$', right: '$$', display: true},
+                {left: '$', right: '$', display: false},
+                {left: "\\(", right: "\\)", display: false},
+                {left: "\\begin{equation}", right: "\\end{equation}", display: true},
+                {left: "\\begin{align}", right: "\\end{align}", display: true},
+                {left: "\\begin{alignat}", right: "\\end{alignat}", display: true},
+                {left: "\\begin{gather}", right: "\\end{gather}", display: true},
+                {left: "\\begin{CD}", right: "\\end{CD}", display: true},
+                {left: "\\[", right: "\\]", display: true}
+            ],
+            
+            // • rendering keys, e.g.:
+            throwOnError : false
+        });
+    });
+</script>
+<script type="text/front-matter">
+{"title":"{{ title | slugify }}","description":"Notes on the publication.","date":"2023-01-02T00:00:00.000Z","contrib":["muelnokr"],"authors":[{"Muhammad ElNokrashy":"https://munael.github.io/"}],"affiliations":[{"Microsoft":null}]}
+</script>
+    
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="/assets/main.css" id="bootstrap--overrides-styles">
+    
+    <link rel="alternate" type="application/atom+xml" title="M. N. ElNokrashy" href="/feed.xml">
+</head>
+
+
+<body
+    class="page--there-are-no-fakes"
+
+>
+
+
+<nav
+        id="navbar" class="navbar sticky-lg-top navbar-expand-sm navbar-light mb-4 py-2"
+>
+    <style>
+        .navbar {
+            box-shadow: 0px 1px 3px 1px #00000060;
+            background-color: whitesmoke;
+        }
+        mn-title {
+            color: var(--mn-arab-royal-red);
+            font-size: 1.3rem;
+        }
+    </style>
+    <div class="container-fluid justify-content-center">
+        <div id="navbar-bs-row-0" class="row w-100 mx-0 justify-content-around justify-content-lg-between">
+            <div id="navbar-logo" class="col-auto px-0 d-flex align-items-center">
+                <a class="navbar-brand mx-3" href="/"
+                        style="font-family: Verdana, Geneva, Tahoma, sans-serif;"
+                >
+                    <mn-title>M N</mn-title> El<mn-title>N</mn-title>okrashy
+                </a>
+            </div>
+
+            <div id="navbar-buttons-col" class="col-auto col-lg px-0">
+                <div
+                    
+                    class="justify-content-around justify-content-lg-between align-items-center py-0 m-0 row gy-2"
+                    id="navbar-buttons"
+                >
+                    <div class="align-items-center my-0 ms-0 p-0 col-auto">
+                        
+                        
+                        <ul
+                            id="siteIndices-navbar-list"
+                            class="nav nav-pills justify-content-center mb-0 mb-lg-0"
+                        >
+                                <li class="nav-item ">
+                                    <a
+                                        role="button"
+                                        class="me-1__ px-1 px-md-2 nav-link mn-link "
+                                        style="font-size: 1.1rem;"
+                                        
+                                        href="/about/"
+                                    >
+                                        About/Professional
+</a>
+                                </li>
+                                <li class="nav-item active_sub">
+                                    <a
+                                        role="button"
+                                        class="me-1__ px-1 px-md-2 nav-link mn-link active_sub"
+                                        style="font-size: 1.1rem;"
+                                        
+                                        href="/blog/research/index/"
+                                    >
+                                        Field Notes
+<i class="text-decoration-none fa-solid fa-magnifying-glass" aria-hidden="true"></i></a>
+                                </li>
+                                <li class="nav-item ">
+                                    <a
+                                        role="button"
+                                        class="me-1__ px-1 px-md-2 nav-link mn-link "
+                                        style="font-size: 1.1rem;"
+                                        
+                                        href="/blog/whispers/index/"
+                                    >
+                                        Musings
+<i class="text-decoration-none fa-solid fa-feather-pointed" aria-hidden="true"></i></a>
+                                </li>
+                            <span class="vr mx-1"></span>
+                            <li class="nav-item">
+                                <a
+                                    class="px-1 px-md-2 nav-link mn-link-ext"
+                                    href="/assets/static/M_ElNokrashy.CV_2022.pdf"
+                                    target=”_blank”
+                                >CV</a>
+                            </li>
+                        </ul>
+                    </div>
+<style>
+    #socials-bar a {
+        display: inline-flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    #socials-bar a > i {
+        font-size: 1.3rem;
+    }
+    #socials-bar a > i::before {
+        /* vertical-align: middle; */
+    }
+</style>
+<ul id="socials-bar" class="nav nav-pills text-center align-self-center align-items-center justify-content-end col-auto mt-lg-0">
+    <li class="nav-item">
+        <a href="https://scholar.google.com/citations?user=LMKKHqQAAAAJ&hl=en"
+            class="mx-1 btn btn-lg_ btn-outline-dark" title="Google Scholar profile"
+        >
+            <i class="fa-solid fa-graduation-cap fa-w-20" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="graduation-cap"></i>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+        </a>
+    </li>
+    <li class="nav-item">
+        <a href="https://github.com/munael"
+            class="mx-1 btn btn-lg_ btn-outline-dark" title="Github profile"
+        >
+            <i class="fa-brands fa-github fa-w-16" aria-hidden="true" focusable="false" data-prefix="fab" data-icon="github"></i>
+            
+        </a>
+    </li>
+    <li class="nav-item">
+        <a href="https://linkedin.com/in/muhammad-elnokrashy"
+            class="mx-1 btn btn-lg_ btn-outline-dark" title="LinkedIn profile"
+        >
+            <i class="fa-brands fa-linkedin fa-w-14" aria-hidden="true" focusable="false" data-prefix="fab" data-icon="linkedin"></i>
+            
+        </a>
+    </li>
+    
+    <li class="nav-item">
+        <a
+            
+            
+            class="btn btn-md ms-4 btn-warning"
+            
+            
+            
+            href="mailto:muhammad.nael+ac@gmail.com?subject=Regarding%20your%20article%3A%20There%20Are%20No%20Fakes%3A%20AI-Generated%20Content%20Is%20Undetectable"
+            data-bs-toggle="popover"
+            data-bs-trigger="hover focus"
+            data-bs-placement="bottom"
+            data-bs-html="true"
+            data-bs-content="<h5>Email address; Gmail chat; Google Meet/Duo (audio/video)</h5>"
+        >
+                <i class="fa-solid fa-envelope fa-w-16" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="envelope"></i>
+                <span class="ms-1 d-none d-md-inline">Contact</span>
+        </a>
+    </li>
+    <li class="nav-item">
+        <a href="/feed.xml"
+            class="btn-rss mx-1 btn btn-md btn-danger" title="RSS"
+            target="_blank"
+        >
+            <i class="text-light fa-solid fa-rss fa-w-14" aria-hidden="true" focusable="false" data-prefix="fab" data-icon="RSS"></i>
+            
+        </a>
+    </li>
+</ul>                </div>
+            </div>
+
+            
+        </div>
+    </div>
+</nav>
+
+    <div class="container-fluid">
+    <div class="row justify-content-center justify-content-lg-start">
+        <div class="d-none d-lg-block col-lg-2"></div>
+        <div class="col-auto col-xl-6 col-lg-8 col-md-10__">
+            <main class="mn-article px-1">
+                
+                <article>
+                    <h1><em>There Are No Fakes</em>: AI-Generated Content Is Undetectable</h1>
+                    <div class="mn-byline hstack gap-2">
+                        <span class="badge text-bg-primary">Muhammad ElNokrashy</span>
+                        <span class="badge text-bg-secondary">January 2023</span>
+                    </div>
+                    <div class="lead mt-2">What makes data "real"? AI-generated content may not be discernable a priori, but only within a syntactic and epistemologic context.</div>
+                    
+                    <h2 id="the-brief" tabindex="-1">The Brief</h2>
+<ul>
+<li>The <em>overwhelming majority</em> of modern mainstream machine learning models are almost fully statistical {citation needed}.</li>
+<li>Early ML generation detectors focus on <mark>form</mark> (syntax, structure, visual quality, ...).</li>
+<li>As generators improve, observers begin to note <mark>plausibility</mark>, within a &quot;<em>domain of expectations</em>&quot;.</li>
+<li><em>Detection by implausibility</em> falls into two traps:
+<ol>
+<li>The distribution of plausible data is <em>often unknown</em>.
+<ul>
+<li>The context to clarify it is often <em>implicit</em> or inaccessible.</li>
+</ul>
+</li>
+<li>Arbitrary data may be coherent in different contexts.
+<ul>
+<li>Noticeably incoherent data is already caught by the <em>form detectors</em>.</li>
+<li>Without strict structure and clear contexts, the detector becomes arbitrary.</li>
+</ul>
+</li>
+</ol>
+</li>
+</ul>
+<h2 id="the-setup" tabindex="-1">The Setup</h2>
+<ul>
+<li>Statistical <em>self-supervised</em> machine learning models are made to learn to <mark>interpolate</mark>.</li>
+<li>Given an appropriate objective design, the model can be tricked at runtime to <em>attempt</em> to <strong>extrapolate</strong>. With <strong>impressive</strong> results.</li>
+<li>The model may learn a realistic interpolation space that <strong>approximates</strong> the true,
+probably <mark>hidden distribution</mark> of a <mark>communication medium</mark> as used by a <mark>culture</mark>.</li>
+<li>Data generated by such models can <strong>pass</strong> as <strong>authentic</strong> to an examiner according to different criteria, such as:
+<ol>
+<li><mark>Validity of form</mark>. Syntax, Structure, etc.</li>
+<li><mark>Plausibility of content</mark>. May include judgement on truth-values, perceived arbitrariness, and so on.</li>
+<li><mark>Verifiable authorship</mark>. Through cryptographic signatures, trust networks, auditing of work/toil, process transparency...
+<ul>
+<li>For example when judging the authority of a video released by an account marked as &quot;official&quot; by the hosting platform.</li>
+</ul>
+</li>
+</ol>
+</li>
+</ul>
+
+                </article>                
+
+                <script type="text/bibliography"></script>
+                <hr class="mt-5"/>
+                <div>Article End</div>
+            </main>
+        </div>
+    </div>
+
+    <div class="row">
+        <footer>
+        
+        </footer>
+    </div>
+    </div>        
+        <script src="/assets/main.js" defer="defer"></script>
+        
+</body>
+
+</html>
