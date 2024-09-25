@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <title>M. ElNokrashy&#39;s Blog</title>
+    <subtitle>Homepage of Muhammad N. ElNokrashy, AI researcher.
+I work/write in AI, PL design, software deveopment, and other CS and Art topics.
+All writings are the author&#39;s personal property, not to be associated with any current, past, or future employers.</subtitle>
+    <link href="https://munael.github.io/feed.xml" rel="self" />
+    <link href="https://munael.github.io/" />
+    <updated>2024-09-23T16:02:44Z</updated>
+    <id>https://munael.github.io/</id>
+    <author>
+        <name>M. ElNokrashy</name>
+        
+    </author></feed>
